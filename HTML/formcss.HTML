@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+               background-color: rgb(242, 248, 243);
+               text-align: center;
+            }
+        .c1 {
+            border-style: solid;
+                
+             background-color: rgb(147, 243, 12);;
+                margin-right: 400px;
+                border-width: 1px;
+                margin-left: 400px;
+                text-align: center;
+                border-radius: 5px;
+        }
+        .in{
+            margin-top: 10px;
+            margin-left: 50px;
+            margin-bottom: 10px;
+        }
+        #borde{
+             background-color:lightgreen;
+                border-style: solid;
+
+                margin: 20px;
+                margin-left: 50px;
+                margin-right: 50px;
+				
+                border-width: 1px;
+                border-radius: 5px;
+        }
+        </style>
+
+        <title>Formulario estructurs</title>
+
+        <body>
+            <form id="borde">
+                
+                    <h1>Step 1:Your details</h1>
+                    <div class=c1>
+                     <label>Name:</label><br>
+                 <input class="in"type="text" name="name" placeholder="Nombre completo" required><br>
+                    </div>
+
+                    <div class=c1>
+                    <label>Email:</label><br>
+                 <input class="in" type="email" name="email" placeholder="ejemplo@gmail.com" required><br>
+                    </div>
+            
+                    <div class=c1>
+                    <label>Phone:</label><br>
+                 <input class="in" type="number" name="name" placeholder="81-27-37-36-73" required><br>
+                    </div>
+
+                    <h1>Step 2:Delivery address</h1>
+                    <div class=c1>
+                 <label>Address:</label><br>
+                 <input class="in" type="text" name="name" placeholder="shsydege#112" required><br>
+                    </div>
+
+                    <div class=c1>
+                    <label>Post Code:</label><br>
+                    <input class="in" type="number" name="name" placeholder="83743" required><br>
+                    </div>
+                
+                    <div class=c1>
+                 <label for="Cy">country:</label><br>
+                 <select  class="in" id="Cy" name="Cy"required><br>
+                    <option value = "Mexico">Mexico</option>
+                    <option value = "Italia">Italia</option>
+                    <option value = "Alemania">Alemania</option>
+                    <option value = "Estados Unidos">Estados Unidos</option>
+                    <option value = "Brasil">Brasil</option>
+                </select><br>
+                    </div>
+
+                   
+                        <h1>Step 3:Card details</h1>
+                        <div class=c1>
+                <label>Card Number:</label><br>
+                <input class="in" type="number" name="name" placeholder="37484000" required><br>
+                    </div>
+
+                    <div class=c1>
+                <label>Security Code:</label><br>
+                <input class="in" type="text" name="name" placeholder="#########" required><br>
+                    </div>
+
+                    <div class=c1>
+                <label>Name on Card:</label><br>
+                <input class="in" type="text" name="name" placeholder="********" required><br>
+                    </div>
+
+            </form>
+        </body>
+    </head>
+</html>
