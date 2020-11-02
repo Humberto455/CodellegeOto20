@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EJERCICIOS JAVA SCRIPT</title>
+    </head>
+    <body>
+        <h1>HOLA MUNDO!</h1>
+       
+
+    </body>
+</html>
+
+<script type="text/javascript">
+var correo = window.prompt("Ingresa tu correo electronico")
+
+var nuevo =[];
+
+var avre = correo.slice(0, 4); //Nombre Abreviado
+
+nuevo.push(avre)
+
+var es = correo.search("@"); //arroba
+
+var com = es + 1
+
+var com2 = correo.slice(com,correo.length) // lo demas despues del arroba
+
+nuevo.push(com2)
+
+console.log(nuevo[0]+".." + nuevo[1])
+
+
+</script>

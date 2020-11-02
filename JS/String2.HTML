@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EJERCICIOS JAVA SCRIPT</title>
+    </head>
+    <body>
+        <h1>HOLA!</h1>
+       
+
+    </body>
+</html>
+
+<script type="text/javascript">
+
+var palabra = window.prompt("Dame tu nombre Y un Solo apellido")
+// window.prompt("")
+
+var lista =[];
+
+var canpal = palabra.length;
+
+for(var i =0; i<1; i++){
+
+    var espacios = palabra.search(" ");
+
+    var x = palabra.slice(0,espacios);
+
+    lista.push(x)
+
+        for(var j=0; j<1; j++){
+
+            var espacios = palabra.search(" ");
+
+            var y = palabra.slice(espacios,canpal);
+
+            lista.push(y)
+        }
+}
+
+console.log(lista)
+    
+</script> 
+
+
